@@ -1,71 +1,60 @@
-Abuja Urban Growth Prediction using GIS & Python
+🌍 Abuja Urban Growth Prediction using GIS & Python
 
-A geospatial analytics project focused on predicting urban growth and infrastructure pressure in Abuja, Nigeria using road network data, population statistics, and spatial analysis techniques.
 
-This project combines:
+🧭 About This Project
 
-Geographic Information Systems (GIS)
-Python data analysis
-Infrastructure intelligence
-Urban analytics
-Smart-city concepts
+Abuja Urban Growth Prediction using GIS & Python is a geospatial analytics project designed to analyze and anticipate patterns of urban expansion and infrastructure pressure in Abuja, Nigeria.
 
-📌 Project Objective
+The project combines spatial data from road networks and population statistics to evaluate how infrastructure distribution influences urban development patterns. Using GIS techniques and Python-based spatial analysis, it generates indicators that help identify areas under increasing growth and infrastructure stress.
 
-The goal of this project is to identify areas in Abuja that are likely to experience rapid urban growth and infrastructure stress based on:
+Rather than treating the city as static, this project models Abuja as a dynamic system where population pressure, road connectivity, and infrastructure distribution interact to shape future urban growth.
+
+The final output supports evidence-based insights for urban planning, transport development, and smart-city decision-making.
+
+🎯 Project Objective
+
+The objective is to identify and analyze areas in Abuja that are likely to experience:
+
+Rapid urban growth
+Infrastructure pressure
+Accessibility imbalance
+Uneven road connectivity
+
+This is achieved by developing spatial indicators based on:
 
 Road density
 Population distribution
-Road accessibility
-Connectivity indicators
+Connectivity patterns
 Infrastructure concentration
-
-The project aims to demonstrate how geospatial data can support:
-
-Urban planning
-Infrastructure development
-Transport analysis
-Smart-city decision making
 
 
 🗺️ Study Area
 
-The analysis focuses on:
-
-Abuja, Federal Capital Territory (FCT), Nigeria
-
-Key districts and surrounding urban expansion corridors are analyzed using road network and demographic datasets.
+The analysis focuses on Abuja, Federal Capital Territory (FCT), Nigeria, including key urban districts and surrounding expansion corridors where rapid development is occurring.
 
 📂 Datasets Used
-
-1. Road Network Data
-
-Source:
-
-OpenStreetMap (OSM)
-
-Contains:
-
+🚧 Road Network Data (OpenStreetMap)
 Road geometries
 Road classifications
 Road lengths
-Connectivity structure
+Network structure and connectivity
 
-2. Nigeria LGA Dataset
 
-Contains:
-
-Local Government Areas (LGAs)
+👥 Population & Administrative Data (Nigeria LGAs)
+Local Government Area boundaries
 Population estimates
-Administrative information
+Administrative attributes
 Area statistics
 
 
 🛠️ Tools & Technologies
 
-GIS
+GIS Tools
+
 QGIS
+
 Python Libraries
+
 Pandas
 GeoPandas
 Matplotlib
@@ -73,108 +62,81 @@ Scikit-learn
 NetworkX
 OSMnx
 
-📊 Analysis Performed
 
-✔ Road Density Analysis
+📊 Methodology
 
-Measured road length relative to land area.
+The analysis follows a structured spatial workflow:
 
-Road Density=
-Area
-Road Length
-	​
+Data Collection → Data Cleaning → Road Network Processing → Spatial Analysis → Infrastructure Metrics → Urban Growth Modeling → Visualization
 
-✔ Infrastructure Pressure Analysis
+📌 Key Analytical Components
+🚧 Road Density Analysis
 
-Estimated infrastructure stress based on population and road availability.
+Measures infrastructure concentration by comparing total road length against land area.
 
-Infrastructure Pressure=
-Road Density
-Population
-	​
+📊 Infrastructure Pressure Index
 
-✔ Urban Growth Potential Modeling
+Estimates stress on infrastructure by relating population levels to road availability.
 
-Generated a simplified urban growth prediction index using:
+🌆 Urban Growth Potential Model
+
+Develops a composite spatial index using:
 
 Road density
 Connectivity
 Population pressure
+🔗 Connectivity Analysis
+
+Evaluates spatial accessibility using road network structure and linkage strength.
 
 
-✔ Connectivity Analysis
-
-Analyzed spatial accessibility and road network structure.
-
-📈 Key Insights
-
-Some observed patterns include:
-
-High road connectivity around central Abuja districts
-Emerging growth corridors along expanding urban fringes
-Infrastructure pressure in densely populated areas
-Uneven road distribution across districts
-
-
-🧠 Project Workflow
-
-Data Collection
-      ↓
-Data Cleaning
-      ↓
-Road Network Processing
-      ↓
-Spatial Analysis
-      ↓
-Infrastructure Metrics
-      ↓
-Urban Growth Prediction
-      ↓
-Visualization & Mapping
+🧠 Key Insights
+Central Abuja shows significantly higher road connectivity compared to peripheral districts
+Urban expansion is emerging along outer growth corridors
+Areas with high population density show increasing infrastructure pressure
+Road distribution is uneven across administrative regions, indicating planning gaps
 
 
 📷 Outputs
 
 The project produces:
 
-Road density maps
-Connectivity maps
-Infrastructure hotspot analysis
-Urban growth prediction visuals
-Statistical charts
-GIS layouts
+Road density heatmaps
+Connectivity network maps
+Infrastructure pressure zones
+Urban growth potential maps
+Statistical and spatial charts
 
 
 🚀 Future Improvements
 
-Potential future upgrades include:
+This project can be extended using:
 
-Satellite imagery integration
-Machine learning prediction models
-Traffic estimation
-Land-use analysis
-Nightlight data analysis
-Time-series urban growth monitoring
+Satellite imagery for land-use classification
+Machine learning-based growth prediction models
+Night-time light intensity data
+Traffic flow simulation
+Time-series urban expansion tracking
 
 
 📌 Why This Project Matters
 
-Rapid urbanization creates increasing pressure on infrastructure systems in growing cities like Abuja.
+Urbanization in rapidly growing cities like Abuja creates pressure on infrastructure systems that are often not evenly distributed.
 
-This project demonstrates how GIS and spatial analytics can help:
+This project demonstrates how GIS and spatial analytics can support:
 
-identify infrastructure gaps
-support urban planning
-improve transport accessibility
-guide smart-city development
-
+Urban planning decisions
+Infrastructure development prioritization
+Transport accessibility analysis
+Smart-city planning strategies
 
 👤 Author
 
 Idogun Favour
+Civil Engineer | GIS & Geospatial Data Analyst
 
-Civil Engineer | GIS Analyst | Geospatial Data Analyst
-
+Interests:
+Smart Infrastructure • Urban Analytics • Geospatial AI • Transport Systems • Infrastructure Intelligence
 Interests:
 
 Smart Infrastructure,
