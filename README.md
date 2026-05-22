@@ -62,6 +62,7 @@ Area statistics
 
 
 🛠️ Tools & Technologies
+
 GIS
 QGIS
 Python Libraries
@@ -116,6 +117,7 @@ Uneven road distribution across districts
 
 
 🧠 Project Workflow
+
 Data Collection
       ↓
 Data Cleaning
@@ -129,6 +131,8 @@ Infrastructure Metrics
 Urban Growth Prediction
       ↓
 Visualization & Mapping
+
+
 📷 Outputs
 
 The project produces:
