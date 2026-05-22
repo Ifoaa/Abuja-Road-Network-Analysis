@@ -33,6 +33,7 @@ Infrastructure concentration
 The analysis focuses on Abuja, Federal Capital Territory (FCT), Nigeria, including key urban districts and surrounding expansion corridors where rapid development is occurring.
 
 📂 Datasets Used
+
 🚧 Road Network Data (OpenStreetMap)
 Road geometries
 Road classifications
@@ -70,6 +71,7 @@ The analysis follows a structured spatial workflow:
 Data Collection → Data Cleaning → Road Network Processing → Spatial Analysis → Infrastructure Metrics → Urban Growth Modeling → Visualization
 
 📌 Key Analytical Components
+
 🚧 Road Density Analysis
 
 Measures infrastructure concentration by comparing total road length against land area.
@@ -85,6 +87,8 @@ Develops a composite spatial index using:
 Road density
 Connectivity
 Population pressure
+
+
 🔗 Connectivity Analysis
 
 Evaluates spatial accessibility using road network structure and linkage strength.
