@@ -177,9 +177,9 @@ Civil Engineer | GIS Analyst | Geospatial Data Analyst
 
 Interests:
 
-Smart Infrastructure
-Urban Analytics
-Geospatial AI
-Transport Systems
+Smart Infrastructure,
+Urban Analytics,
+Geospatial AI,
+Transport Systems,
 Infrastructure Intelligence
 
